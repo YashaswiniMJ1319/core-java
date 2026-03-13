@@ -1,0 +1,19 @@
+Class Refr{
+public static void main(String[] argc){
+Refrigerator.brand();
+Refrigerator.brand();
+Refrigerator.brand();
+Refrigerator.color();
+Refrigerator.color();
+Refrigerator.color();
+Refrigerator.capacity();
+Refrigerator.capacity();
+Refrigerator.capacity();
+Refrigerator.type();
+Refrigerator.type();
+Refrigerator.type();
+Refrigerator.price();
+Refrigerator.price();
+Refrigerator.price();
+
+}
