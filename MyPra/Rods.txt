@@ -1,0 +1,7 @@
+class Rods{
+public static void main(String[] argc){
+Rod.metal();
+Rod.metals("silver",1000,23.5,'A');
+}
+
+}
