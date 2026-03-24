@@ -37,9 +37,14 @@ class TouristPlaces {
         places[1] = "empty";
         System.out.println("The size of available elements are :" + size);
         System.out.println("The updated element is:" + places[1]);
-        for(int i=29;i>=0;){
-            System.out.println(places[i]);
-			i--;
+		for(int note=0;note<30;){
+            System.out.println(places[note]);
+			note++;
+        }
+		System.out.println("\n reverse order \n");
+        for(int note=29;note>=0;){
+            System.out.println(places[note]);
+			note--;
         }
 		String name1=places[100];
 		System.out.println("The retrived place name is:"+name1);

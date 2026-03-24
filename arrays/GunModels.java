@@ -37,6 +37,10 @@ public static void main(String[] values)
 		guns[1]="nothing";
 		System.out.println("The size of available elements are :"+size);
 		System.out.println("The updated element is:"+guns[1]);
+		for(int items=0;items<size;items++){
+			System.out.println(guns[items]);
+		}
+		System.out.println("\n reverse order \n");
 		for(int items=29;items>=0;items--){
 			System.out.println(guns[items]);
 		}

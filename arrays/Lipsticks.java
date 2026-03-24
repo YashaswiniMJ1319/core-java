@@ -17,8 +17,13 @@ class Lipsticks {
         lipsticks[1] = "New one";
         System.out.println("The size of available elements are :" + size);
         System.out.println("The updated element is:" + lipsticks[1]);
-        for(int i=9; i>0; i--){
-            System.out.println(lipsticks[i]);
+		 for(int items=0; items<10; items++){
+            System.out.println(lipsticks[items]);
+		 }
+			
+			System.out.println("\n reverse order \n");
+        for(int items=9; items>=0; items--){
+            System.out.println(lipsticks[items]);
         }
 		String name1=lipsticks[20];
 		System.out.println("The retrived car lipsticks is:"+name1);

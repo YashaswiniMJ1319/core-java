@@ -34,9 +34,13 @@ class PlantNames {
         plants[1] = "treee";
         System.out.println("The size of available elements are :" + size);
         System.out.println("The updated element is:" + plants[1]);
+		for(int items=0;items<25;items++){
+            System.out.println(plants[items]);
+        }
+		System.out.println("\n reverse order \n");
 
-        for(int i=size-1;i>=0;i--){
-            System.out.println(plants[i]);
+        for(int items=size-1;items>=0;items--){
+            System.out.println(plants[items]);
         }
 		String name1=plants[30];
 		System.out.println("The retrived plant name is:"+name1);

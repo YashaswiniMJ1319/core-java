@@ -33,8 +33,12 @@ class CarModels {
         cars[1] = "Bus";
         System.out.println("The size of available elements are :" + size);
         System.out.println("The updated element is:" + cars[1]);
-        for(int i=size-1;i>=0;i--){
-            System.out.println(cars[i]);
+		for(int items=0;items<=24;items++){
+            System.out.println(cars[items]);
+        }
+		System.out.println("\n reverse order \n");
+        for(int items=size-1;items>=0;items--){
+            System.out.println(cars[items]);
         }
 		String name1=cars[-1];
 		System.out.println("The retrived car name is:"+name1);
