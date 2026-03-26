@@ -3,6 +3,7 @@ class GetPersonDetails{
 		String name="yashu";
 		String[] email={"yy187231@gmail.com","mjyr1319@gmail.com"};
 		String[] phoneNo={"1234567890"};
+		//BigInteger
 		String[]addr={"kalyadi"};
 		PersonDetails.getDetailsOfPerson(name,email,phoneNo,addr);
 		
@@ -23,7 +24,8 @@ class GetPersonDetails{
 		String[] phoneNo4={"9876543210","9123456780"};
 		String[]addr3={"45, Sector 15"," Uttar Pradesh"};
 		PersonDetails.getDetailsOfPerson(name,email4,phoneNo4,addr3);
-      		name="Arjun";
+      	
+		name="Arjun";
 		String[] email5={"arjun.reddy@gmail.com"};
 		String[] phoneNo5={"9012345678"};
 		String[]addr4={"12, Banjara Hills","Hyderabad"};
