@@ -10,7 +10,6 @@ class FlagRunner{
 		System.out.println("the color name is:"+num.number);
 		System.out.println("the color name is:"+len.length);
 		System.out.println("the color name is:"+str.stripes);
-		System.out.println("the color name is:"+str.stripes);
 		System.out.println("the color name is:"+national.isNational);
 		
 		ref.color="Green";
