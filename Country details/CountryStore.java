@@ -47,7 +47,7 @@ class CountryStore{
             if(count != null){
                 for(State start : count.states){  
                     if(start != null && start.name.equals(name)){
-                        return new City[]{start.city}; 
+                        return new start.city; 
                     }
                 }
             }
@@ -73,8 +73,7 @@ class CountryStore{
             if(count != null){
                 for(State start : count.states){  
                     if(start != null){
-                        City city = start.city;
-                        for(District dist : city.districts){   
+                    for(District dist : city.districts){   
                             if(dist != null && dist.collector.name.equals(collectorName)){
                                 return count;
                             }
