@@ -42,6 +42,7 @@ class TouristPlaces {
 			note++;
         }
 		System.out.println("\n reverse order \n");
+		
         for(int note=29;note>=0;){
             System.out.println(places[note]);
 			note--;

@@ -41,6 +41,7 @@ public static void main(String[] values)
 			System.out.println(guns[items]);
 		}
 		System.out.println("\n reverse order \n");
+		
 		for(int items=29;items>=0;items--){
 			System.out.println(guns[items]);
 		}
